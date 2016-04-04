@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77D1D8D01CB250EE00DA3359 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D1D8CF1CB250EE00DA3359 /* main.m */; };
+		77D1D8D31CB250EE00DA3359 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D1D8D21CB250EE00DA3359 /* AppDelegate.m */; };
+		77D1D8D61CB250EE00DA3359 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D1D8D51CB250EE00DA3359 /* ViewController.m */; };
+		77D1D8D91CB250EE00DA3359 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D1D8D71CB250EE00DA3359 /* Main.storyboard */; };
+		77D1D8DB1CB250EE00DA3359 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D1D8DA1CB250EE00DA3359 /* Assets.xcassets */; };
+		77D1D8DE1CB250EE00DA3359 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D1D8DC1CB250EE00DA3359 /* LaunchScreen.storyboard */; };
+		77D1D8E91CB250EE00DA3359 /* PastingImageTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D1D8E81CB250EE00DA3359 /* PastingImageTextViewTests.m */; };
+		77D1D8F41CB250EE00DA3359 /* PastingImageTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D1D8F31CB250EE00DA3359 /* PastingImageTextViewUITests.m */; };
+		77D1D9071CB27B0400DA3359 /* PasteAllTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D1D9061CB27B0400DA3359 /* PasteAllTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77D1D8E51CB250EE00DA3359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77D1D8C31CB250EE00DA3359 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77D1D8CA1CB250EE00DA3359;
+			remoteInfo = PastingImageTextView;
+		};
+		77D1D8F01CB250EE00DA3359 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77D1D8C31CB250EE00DA3359 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77D1D8CA1CB250EE00DA3359;
+			remoteInfo = PastingImageTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		77D1D8CB1CB250EE00DA3359 /* PastingImageTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PastingImageTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D1D8CF1CB250EE00DA3359 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77D1D8D11CB250EE00DA3359 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		77D1D8D21CB250EE00DA3359 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		77D1D8D41CB250EE00DA3359 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		77D1D8D51CB250EE00DA3359 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		77D1D8D81CB250EE00DA3359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77D1D8DA1CB250EE00DA3359 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77D1D8DD1CB250EE00DA3359 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77D1D8DF1CB250EE00DA3359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D1D8E41CB250EE00DA3359 /* PastingImageTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PastingImageTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D1D8E81CB250EE00DA3359 /* PastingImageTextViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PastingImageTextViewTests.m; sourceTree = "<group>"; };
+		77D1D8EA1CB250EE00DA3359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D1D8EF1CB250EE00DA3359 /* PastingImageTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PastingImageTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D1D8F31CB250EE00DA3359 /* PastingImageTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PastingImageTextViewUITests.m; sourceTree = "<group>"; };
+		77D1D8F51CB250EE00DA3359 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77D1D9051CB27B0400DA3359 /* PasteAllTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteAllTextView.h; sourceTree = "<group>"; };
+		77D1D9061CB27B0400DA3359 /* PasteAllTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteAllTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77D1D8C81CB250EE00DA3359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D1D8E11CB250EE00DA3359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D1D8EC1CB250EE00DA3359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77D1D8C21CB250EE00DA3359 = {
+			isa = PBXGroup;
+			children = (
+				77D1D8CD1CB250EE00DA3359 /* PastingImageTextView */,
+				77D1D8E71CB250EE00DA3359 /* PastingImageTextViewTests */,
+				77D1D8F21CB250EE00DA3359 /* PastingImageTextViewUITests */,
+				77D1D8CC1CB250EE00DA3359 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77D1D8CC1CB250EE00DA3359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77D1D8CB1CB250EE00DA3359 /* PastingImageTextView.app */,
+				77D1D8E41CB250EE00DA3359 /* PastingImageTextViewTests.xctest */,
+				77D1D8EF1CB250EE00DA3359 /* PastingImageTextViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77D1D8CD1CB250EE00DA3359 /* PastingImageTextView */ = {
+			isa = PBXGroup;
+			children = (
+				77D1D9041CB27B0400DA3359 /* PasteAllTextView */,
+				77D1D8D11CB250EE00DA3359 /* AppDelegate.h */,
+				77D1D8D21CB250EE00DA3359 /* AppDelegate.m */,
+				77D1D8D41CB250EE00DA3359 /* ViewController.h */,
+				77D1D8D51CB250EE00DA3359 /* ViewController.m */,
+				77D1D8D71CB250EE00DA3359 /* Main.storyboard */,
+				77D1D8DA1CB250EE00DA3359 /* Assets.xcassets */,
+				77D1D8DC1CB250EE00DA3359 /* LaunchScreen.storyboard */,
+				77D1D8DF1CB250EE00DA3359 /* Info.plist */,
+				77D1D8CE1CB250EE00DA3359 /* Supporting Files */,
+			);
+			path = PastingImageTextView;
+			sourceTree = "<group>";
+		};
+		77D1D8CE1CB250EE00DA3359 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77D1D8CF1CB250EE00DA3359 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77D1D8E71CB250EE00DA3359 /* PastingImageTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				77D1D8E81CB250EE00DA3359 /* PastingImageTextViewTests.m */,
+				77D1D8EA1CB250EE00DA3359 /* Info.plist */,
+			);
+			path = PastingImageTextViewTests;
+			sourceTree = "<group>";
+		};
+		77D1D8F21CB250EE00DA3359 /* PastingImageTextViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77D1D8F31CB250EE00DA3359 /* PastingImageTextViewUITests.m */,
+				77D1D8F51CB250EE00DA3359 /* Info.plist */,
+			);
+			path = PastingImageTextViewUITests;
+			sourceTree = "<group>";
+		};
+		77D1D9041CB27B0400DA3359 /* PasteAllTextView */ = {
+			isa = PBXGroup;
+			children = (
+				77D1D9051CB27B0400DA3359 /* PasteAllTextView.h */,
+				77D1D9061CB27B0400DA3359 /* PasteAllTextView.m */,
+			);
+			path = PasteAllTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77D1D8CA1CB250EE00DA3359 /* PastingImageTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D1D8F81CB250EE00DA3359 /* Build configuration list for PBXNativeTarget "PastingImageTextView" */;
+			buildPhases = (
+				77D1D8C71CB250EE00DA3359 /* Sources */,
+				77D1D8C81CB250EE00DA3359 /* Frameworks */,
+				77D1D8C91CB250EE00DA3359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PastingImageTextView;
+			productName = PastingImageTextView;
+			productReference = 77D1D8CB1CB250EE00DA3359 /* PastingImageTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77D1D8E31CB250EE00DA3359 /* PastingImageTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D1D8FB1CB250EE00DA3359 /* Build configuration list for PBXNativeTarget "PastingImageTextViewTests" */;
+			buildPhases = (
+				77D1D8E01CB250EE00DA3359 /* Sources */,
+				77D1D8E11CB250EE00DA3359 /* Frameworks */,
+				77D1D8E21CB250EE00DA3359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77D1D8E61CB250EE00DA3359 /* PBXTargetDependency */,
+			);
+			name = PastingImageTextViewTests;
+			productName = PastingImageTextViewTests;
+			productReference = 77D1D8E41CB250EE00DA3359 /* PastingImageTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		77D1D8EE1CB250EE00DA3359 /* PastingImageTextViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77D1D8FE1CB250EE00DA3359 /* Build configuration list for PBXNativeTarget "PastingImageTextViewUITests" */;
+			buildPhases = (
+				77D1D8EB1CB250EE00DA3359 /* Sources */,
+				77D1D8EC1CB250EE00DA3359 /* Frameworks */,
+				77D1D8ED1CB250EE00DA3359 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77D1D8F11CB250EE00DA3359 /* PBXTargetDependency */,
+			);
+			name = PastingImageTextViewUITests;
+			productName = PastingImageTextViewUITests;
+			productReference = 77D1D8EF1CB250EE00DA3359 /* PastingImageTextViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77D1D8C31CB250EE00DA3359 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Anirudh Vyas";
+				TargetAttributes = {
+					77D1D8CA1CB250EE00DA3359 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					77D1D8E31CB250EE00DA3359 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 77D1D8CA1CB250EE00DA3359;
+					};
+					77D1D8EE1CB250EE00DA3359 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 77D1D8CA1CB250EE00DA3359;
+					};
+				};
+			};
+			buildConfigurationList = 77D1D8C61CB250EE00DA3359 /* Build configuration list for PBXProject "PastingImageTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77D1D8C21CB250EE00DA3359;
+			productRefGroup = 77D1D8CC1CB250EE00DA3359 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77D1D8CA1CB250EE00DA3359 /* PastingImageTextView */,
+				77D1D8E31CB250EE00DA3359 /* PastingImageTextViewTests */,
+				77D1D8EE1CB250EE00DA3359 /* PastingImageTextViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77D1D8C91CB250EE00DA3359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D1D8DE1CB250EE00DA3359 /* LaunchScreen.storyboard in Resources */,
+				77D1D8DB1CB250EE00DA3359 /* Assets.xcassets in Resources */,
+				77D1D8D91CB250EE00DA3359 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D1D8E21CB250EE00DA3359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D1D8ED1CB250EE00DA3359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77D1D8C71CB250EE00DA3359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D1D8D61CB250EE00DA3359 /* ViewController.m in Sources */,
+				77D1D8D31CB250EE00DA3359 /* AppDelegate.m in Sources */,
+				77D1D8D01CB250EE00DA3359 /* main.m in Sources */,
+				77D1D9071CB27B0400DA3359 /* PasteAllTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D1D8E01CB250EE00DA3359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D1D8E91CB250EE00DA3359 /* PastingImageTextViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77D1D8EB1CB250EE00DA3359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77D1D8F41CB250EE00DA3359 /* PastingImageTextViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77D1D8E61CB250EE00DA3359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77D1D8CA1CB250EE00DA3359 /* PastingImageTextView */;
+			targetProxy = 77D1D8E51CB250EE00DA3359 /* PBXContainerItemProxy */;
+		};
+		77D1D8F11CB250EE00DA3359 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77D1D8CA1CB250EE00DA3359 /* PastingImageTextView */;
+			targetProxy = 77D1D8F01CB250EE00DA3359 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77D1D8D71CB250EE00DA3359 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D1D8D81CB250EE00DA3359 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77D1D8DC1CB250EE00DA3359 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77D1D8DD1CB250EE00DA3359 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77D1D8F61CB250EE00DA3359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77D1D8F71CB250EE00DA3359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77D1D8F91CB250EE00DA3359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PastingImageTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viewlift.PastingImageTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		77D1D8FA1CB250EE00DA3359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PastingImageTextView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viewlift.PastingImageTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		77D1D8FC1CB250EE00DA3359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PastingImageTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viewlift.PastingImageTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PastingImageTextView.app/PastingImageTextView";
+			};
+			name = Debug;
+		};
+		77D1D8FD1CB250EE00DA3359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PastingImageTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viewlift.PastingImageTextViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PastingImageTextView.app/PastingImageTextView";
+			};
+			name = Release;
+		};
+		77D1D8FF1CB250EE00DA3359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PastingImageTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viewlift.PastingImageTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PastingImageTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		77D1D9001CB250EE00DA3359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PastingImageTextViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.viewlift.PastingImageTextViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PastingImageTextView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77D1D8C61CB250EE00DA3359 /* Build configuration list for PBXProject "PastingImageTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D1D8F61CB250EE00DA3359 /* Debug */,
+				77D1D8F71CB250EE00DA3359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77D1D8F81CB250EE00DA3359 /* Build configuration list for PBXNativeTarget "PastingImageTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D1D8F91CB250EE00DA3359 /* Debug */,
+				77D1D8FA1CB250EE00DA3359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77D1D8FB1CB250EE00DA3359 /* Build configuration list for PBXNativeTarget "PastingImageTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D1D8FC1CB250EE00DA3359 /* Debug */,
+				77D1D8FD1CB250EE00DA3359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		77D1D8FE1CB250EE00DA3359 /* Build configuration list for PBXNativeTarget "PastingImageTextViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77D1D8FF1CB250EE00DA3359 /* Debug */,
+				77D1D9001CB250EE00DA3359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77D1D8C31CB250EE00DA3359 /* Project object */;
+}
